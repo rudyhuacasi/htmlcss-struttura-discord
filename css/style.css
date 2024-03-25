@@ -15,9 +15,7 @@ header{
     margin: 0 auto;
 }
 .lightblue{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;   
+    display: flex;     
 }
 .square{
     background-color: goldenrod;
@@ -35,4 +33,21 @@ header{
 }
 .login{
     text-align: right;
+}
+/*main*/
+/*square-1*/
+.sfondo{
+    background-color: blue;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.container-1{
+    width: 800px;
+    margin: 0 auto;
+}
+.pink{
+    background-color: rgb(195, 76, 206);
+    height: 300px;
+    border: 1px dashed black;
 }
