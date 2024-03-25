@@ -1,0 +1,38 @@
+/*header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightblue;
+    height: 70px;
+    display: flex;
+    align-items: center; 
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.lightblue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.square{
+    background-color: goldenrod;
+    border: 1px dashed black;
+    padding: 5px;
+}
+.small{
+    width: calc(100%/4);
+}
+.large{
+    width: calc(100%/2);
+}
+.link{
+    text-align: center;
+}
+.login{
+    text-align: right;
+}
